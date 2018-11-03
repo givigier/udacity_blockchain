@@ -1,0 +1,9 @@
+{
+  "name": "udacity_blockchain_projects",
+  "version": "1.0.0",
+  "description": "Udacity Blockchain Nanodegree",
+  "author": "Gabriel Givigier <gabriel@givigier.com>",
+  "dependencies": {
+    "bitcoinjs-message": "^2.0.0"
+  }
+}
