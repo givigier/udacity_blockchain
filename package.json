@@ -4,6 +4,7 @@
   "description": "Udacity Blockchain Nanodegree",
   "author": "Gabriel Givigier <gabriel@givigier.com>",
   "dependencies": {
-    "bitcoinjs-message": "^2.0.0"
+    "bitcoinjs-message": "^2.0.0",
+    "bitcoinjs-lib": "^4.0.2"
   }
 }
