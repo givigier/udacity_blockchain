@@ -5,6 +5,7 @@
   "author": "Gabriel Givigier <gabriel@givigier.com>",
   "dependencies": {
     "bitcoinjs-message": "^2.0.0",
-    "bitcoinjs-lib": "^4.0.2"
+    "bitcoinjs-lib": "^4.0.2",
+    "blockexplorer": "^1.0.1"
   }
 }

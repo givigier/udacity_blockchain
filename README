@@ -1,0 +1,5 @@
+docker build -t udacity_blockchain .
+
+docker run udacity_blockchain:latest node message-signature/verifier.js
+
+docker run udacity_blockchain:latest node block-explorer/explorer.js
