@@ -1,0 +1,23 @@
+version: "3.2"
+services:
+  bitcoin-core:
+    image: ruimarinho/bitcoin-core
+    ports:
+      - "18443:18443"
+      - "18444:18444"
+    command:
+      -printtoconsole
+      -testnet=1
+      -prune=550
+  projects:
+    build: .
+    command: /bin/bash
+    volumes:
+      - .:/projects
+    stdin_open: true
+    tty: true
+    depends_on:
+      - bitcoin-core
+volumes:
+  projects:
+  bitcoin-core:

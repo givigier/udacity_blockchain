@@ -1,0 +1,13 @@
+listunspent
+
+gettxout "txid" 0
+
+createrawtransaction '[{"txid":"TXID","vout": VOUT}]''{"to_address":amount1, "from_address":amount2}' => "hexstring"
+
+decoderawtransaction "hexstring"
+
+signrawtransactionwithwallet "hexstring"
+
+sendrawtransaction "hexstring" ( allowhighfees )
+
+gettransaction "txid"
